@@ -1,0 +1,24 @@
+.dienthoai{
+	width: 15%;
+	height: 200px;
+	border: 2px;
+	display: inline-block;
+	text-align: center;
+	border:1px solid #ABABAB;
+
+
+
+}
+.dienthoai:hover{
+	border:1px solid red;
+
+
+}
+#ten{
+	color:#CD9680;
+}
+#gia{
+	color:red;
+	position: relative;
+	bottom:40px;
+}
