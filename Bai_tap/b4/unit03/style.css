@@ -1,0 +1,38 @@
+.top-head{
+background: yellow;
+width: 100%;
+height: 100px;
+
+}
+.left-menu{
+	width:20%;
+	height: 400px;
+	float: left;
+	background: violet;
+	clear: both;
+}
+.right-menu{
+	width:20%;
+	height: 400px;
+	float: right;
+	background: blue;
+}
+.main-info{
+	width:60%;
+	height: 400px;
+	float: left;
+	background: pink;
+}
+.footer{
+	width: 100%;
+	height: 100px;
+	background: red;
+	clear: both;
+	
+}
+div{
+
+	border-radius: 5px;
+}
+
+
