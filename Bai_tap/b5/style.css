@@ -106,7 +106,12 @@ a{
 .menu ul li a{
 	color:white;
 
+
 }
+/*.menu ul li a:hover{
+	background-color: #E7ECEF;
+	width:;
+}*/
 
 .quangcao{
 	width: 100%;

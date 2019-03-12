@@ -1,0 +1,272 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+a{
+	text-decoration: none;
+}
+li{
+	list-style:none;
+}
+.header{
+	width: 100%;
+	/*height: 100px;*/
+	
+
+
+}
+.header ul{
+	margin-left:30%;
+	margin-top: 20px;
+
+
+}
+
+.header ul li{
+	float: left;
+	
+	margin-left:2%;
+	
+}
+.thetrong{
+	width: 100%;
+	background-color: #F4F7F9;
+	
+
+}
+.content-1{
+	width: 100%;
+	/*height: 730px;*/
+	clear: 	both;
+	background-color: #F4F7F9;	
+	display: inline-block;
+}
+.item{
+	width: 90%;
+	margin:0 auto;
+
+	background-color: #F4F7F9;
+
+	
+}
+.solo{
+	width: 95%;
+	margin: 0 auto;
+
+	/*height: 120px;*/
+	text-align: center;
+	font-family: 'Roboto Condensed', sans-serif;
+	background-color: #F4F7F9;
+
+
+}
+#tieu-de{
+	color: #8ECFC5;
+    font-size: 40px;
+    width: 85%;
+   
+    font-family: 'Sniglet', cursive;
+    margin-left: 5%;
+}
+#tieu-de1{
+	width:45%;
+	font-size: 18px;
+	margin: 0 auto
+}
+
+.anh{
+	width: 30%;
+	/*height: 250px;*/
+	float: left;
+	margin-left:2%;
+	font-family: 'Roboto Condensed', sans-serif;
+	margin-top:30px;
+	
+}
+.anh img{
+	width: 100%;
+	/*height: 200px;*/
+}
+.ten-item{
+	color: #8ECFC5 ;
+	font-size: 25px;
+	font-family: 'Sniglet', cursive;
+
+}
+.duoi{
+	width: 100%;
+	text-align: center;
+	clear: both;
+	
+	background-color: #F4F7F9;
+	padding-top: 30px;
+}
+
+.content-2{
+	width: 90%;
+	margin:0 auto;
+	
+	
+	/*height: 400px;*/
+}
+.about{
+	width: 60%;
+	/*height: 400px;*/	
+	font-family: 'Roboto Condensed', sans-serif;
+	
+    float: left;
+
+	
+}
+#ten-tieu-de{
+	color: #8ECFC5 ;
+	font-size: 30px;
+	font-family: 'Sniglet', cursive;
+
+}
+.about p{
+	font-size:15px;
+	
+}
+.cool{
+	width: 30%;
+	float:left;
+	padding-left: 3%;
+	/*height: 400px;*/
+
+}
+#ten-tieu-de1{
+	color: #8ECFC5 ;
+	font-size: 30px;
+	font-family: 'Sniglet', cursive;
+}
+
+.fa-twitter-square{
+	size: 20px;
+	color:#8ECFC5; 
+
+}
+.fa-hacker-news{
+	size: 25px;
+	color:#8ECFC5; 
+}
+.fa-facebook-square{
+	size: 20px;
+    color:#8ECFC5; 
+}
+.footer{
+	width:100%;
+	/*height: 500px;*/
+	background-color: #9ACCC5;
+	margin-top:30px;
+
+}
+.trongchan{
+	width: 90%;
+	margin:0 auto;
+	position: relative;
+	/*height: 500px;*/
+}
+.trongchan{
+	color: white;
+	font-family:  'Sniglet', cursive;
+
+}
+.cool ul li{
+	margin-left: 12%;
+}
+.trongchan ul li{
+	margin-top: 30px;
+}
+.trongchan ul li input{
+	width:100%;
+}
+#submit{
+	width: 100px;
+	height:40px;
+	background-color: #276255; 
+}
+#where{
+	width: 100%;
+	/*height:80px; */
+}
+/*desktop*/
+@media all and (max-width: 1200px){
+	
+}
+/*maytinh*/
+@media all and (max-width: 992px){
+	
+}
+/*ipad*/
+@media all and (max-width: 768px){
+	.header ul{
+		margin-left: 17%;
+
+	}
+	.anh{
+		width: 45%;
+		float: left;
+	}
+	.about{
+		width: 100%;
+	}
+	.cool{
+	width: 	100%;
+    } 
+    .duoi {
+    	margin-top: 30px;
+    }
+    /*.content-1{*/
+    	/*height: 1020px;*/
+    /*}*/
+}
+/*dienthoai*/
+@media all and (max-width: 576px){
+	.header ul li a{
+		display: none;
+	}
+	.header ul{
+		margin-left: 23%;
+	}
+	#tieu-de{
+		font-size: 	22px;
+
+	}
+	#tieu-de1{
+		display: none;
+	}
+	
+	.anh{
+		width: 	95%;
+		margin-top:30px;
+		margin-left: 3%;
+
+	}
+	
+	.content-1{
+		/*height:1850px;*/
+	}
+	.cool{
+	width: 	100%;
+
+	}
+	.cool p{
+		margin-right:50%;
+	}
+
+	.about{
+		width: 100%;
+	}
+	.duoi {
+		
+		margin-top: 30px;
+	}
+
+}
+
+
+
+
+
+
