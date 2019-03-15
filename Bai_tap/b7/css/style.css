@@ -1,0 +1,507 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+a{
+	text-decoration: none;
+}
+li{
+	list-style:none;
+}
+.header{
+	width: 100%;
+	background-color: white;
+}
+.header  span i{
+	display: none;
+}
+.header p{
+	color: black;
+	font-size: 30px;
+	float: left;
+	margin-left: 150px;
+	margin-top: 10px;
+}
+.header ul li{
+	float: right;
+	padding-right: 80px;
+	margin-top:20px;
+
+}
+.header p strong{
+	color:#ED512F;
+}
+.header ul li a:hover{
+	color:#ED512F;
+}
+.banner{
+	width: 100%;
+}
+.banner img{
+	width: 100%;
+}
+.daucham ul li{
+	width: 15px;
+	height: 15px;
+	float: left;
+	background-color: #ED512F;
+	margin-left: 5px;
+	border-radius: 40%;
+	color: #ED512F;
+	position: relative;
+	left: 47%;
+}
+.daucham{
+	width: 100%;
+}
+.provi{
+	width: 100%;
+	text-align: center;
+	line-height: 50px;
+	margin-top: 40px;
+}
+#provi-1{
+	font-size: 25px;
+	font-family: 'Roboto Slab', serif;
+}
+#provi-2{
+	font-size: 30px;
+	font-family: 'Roboto Slab', serif;
+}
+.crea{
+	width:20%;
+	float: left;
+	padding-left: 65px;
+	text-align: center;
+	line-height: 100px;
+	margin-top:40px;
+}
+.crea a{
+	width: 60px;
+	height: 60px;
+	border-radius: 50%;
+	background-color:#ED512F;
+	font-size: 30px; 
+	color:white;
+	line-height: 60px;
+	text-align: center;
+
+
+}
+.crea p{
+	font-family: 'Sniglet', cursive;
+}
+.main{
+	width: 100%;
+	text-align: center;
+	line-height: 80px;
+}
+#main-1{
+	font-size: 30px;
+	font-family: 'Sniglet', cursive;
+
+}
+#main-2{
+	font-size: 15px;
+	width: 50%;
+	margin:0 auto;
+	line-height: 20px;
+	font-family: 'Sniglet', cursive;
+
+}
+.anh{
+	width: 40%;
+	float: left;
+	margin-left: 80px;
+	margin-top:80px;
+}
+.icon{
+	width:25%;
+	margin-top:120px;
+	float: right;
+	float: right;
+	margin-right: 70px;
+
+}
+.icon-1{
+	width:25%;
+	float: left;
+	
+}
+.chu{
+	width: 75%;
+	float: left;
+
+	
+
+	
+}
+#seo{
+	font-size: 20px;
+	margin-bottom: 20px;
+	font-family: 'Sniglet', cursive;
+}
+.chu p{
+	font-family: 'Sniglet', cursive;
+}
+.icon-1 a{
+
+	width: 60px;
+	height: 60px;
+	border-radius: 50%;
+	background-color:#ED512F;
+	font-size: 30px; 
+	color:white;
+	line-height: 60px;
+	text-align: center;
+
+}
+#hue{
+	margin-top:140px;
+}
+.eas{
+	width: 100%;
+	clear: both;
+	text-align: center;
+	background-color: #ED512F;
+
+}
+.eas-1{
+	color:white;
+	font-size: 30px;
+	padding-top: 100px;
+	font-family: 'Sniglet', cursive;
+}
+.eas-2{
+	color:white;
+	font-size: 15px;
+	margin-top:50px;
+	font-family: 'Roboto Slab', serif;
+}
+/*.eas ul li{
+	float: left;
+	width: 150px;
+	height: 30px;
+	border-right-width: 20px solid black;
+	border-right-left: 20px solid black;
+	margin-top:50px;
+	}*/
+	.pur{
+		width: 100%;
+		background-color: #ED512F;
+		text-align: center;
+		height: 100px;
+
+
+
+
+
+	}
+
+	.pur p{
+		background-color: #ED512F;
+		margin-left:38%;
+
+
+
+	}
+	.pur p a{
+		float: left;
+		border: 1px solid white;
+		border-radius: 10px;
+
+		height:25px;
+
+		background-color: white;
+		color:black;
+		width: 150px;
+
+		line-height: 25px;
+		position: relative;
+		margin-top:50px;
+	}
+	.profiles{
+		width: 100%;
+		text-align: center;
+		padding-top:100px;
+		line-height: 50px;
+
+	}
+	#pro-1{
+		font-size: 20px;
+		font-family: 'Sniglet', cursive;
+
+	}
+	#pro-2{
+		font-size: 25px;
+		font-family: 'Sniglet', cursive;
+	}
+	.nguoi{
+		width: 100%;
+
+		clear: both;
+	}
+	.profiles ul li{
+		width: 25%;
+		float: left;
+		line-height: 30px;
+	}
+	.profiles ul{
+		margin-top: 80px;
+
+	}
+	#ten-1{
+		font-size: 20px;
+		font-family: 'Sniglet', cursive;
+
+	}
+	#ten-2{
+		font-size: 15px;
+		font-family: 'Sniglet', cursive;
+	}
+	.muti{
+		width: 30%;
+		float: left;
+		margin-top:35px;
+		padding-left: 40px;
+
+
+	}
+	.muti ul li{
+		float: left;
+		padding-left: 30px;
+	}
+	.muti ul li a{
+		width: 40px;
+		height: 30px;
+		border-radius: 40%;
+		background-color:#000000;
+		font-size: 15px; 
+		color:white;
+		line-height: 30px;
+		text-align: center;
+
+
+
+	}
+	#muti-1{
+		font-size: 25px;
+		color:white;
+	
+
+	}
+	#muti-2{
+		font-size: 15px;
+		color:white;
+		
+
+	}
+	.rec{
+		width: 30%;
+		float: left;
+		line-height: 30px;
+		margin-top: 30px;
+		padding-left: 20px;
+
+
+	}
+	.rec p{
+		color:white;
+	
+	}
+	.cont{
+		width: 30%;
+		float: left;
+		line-height: 50px;
+		margin-top:30px;
+		padding-left: 20px;
+	}
+	.cont p{
+		color:white;
+		
+	}
+	.menu{
+		width: 100%;
+		background-color:#090909; 
+		clear: both;
+		height: 50px;
+	}
+	.menu ul li{
+		float: right;
+
+	}
+	.menu ul li a{
+		color:white;
+		font-size: 15px;
+		padding-right: 50px;
+		padding-bottom: 20px;
+
+	}
+	.menu p{
+		color:white;
+		margin-left: 40px;
+
+
+	}
+	.what{
+		width: 100%;
+		background-color: #292929;
+		clear: both;
+		padding-top: 50px;
+	
+	}
+	.menu p{
+		position: relative;
+		top:22px;
+
+	}
+	@media all and (max-width: 1200px){
+
+	}
+	/*maytinh*/
+	@media all and (max-width: 992px){
+
+	}
+	/*ipad*/
+	@media all and (max-width: 768px){
+		.header ul li{
+			float: right;
+			padding-right:15px;
+			margin-top:20px;
+
+		}
+		.header p{
+			margin-left:20px;
+		}
+		.crea{
+			padding-left: 20px;
+			line-height: 30px;
+		}
+		.anh{
+			width: 100%;
+			margin:0 auto;
+
+
+		}
+		.anh img{
+			width:90%; 
+			margin-left: 30px;
+
+
+		}
+		.icon{
+			width: 70%;
+		}
+		.profiles ul li{
+			width: 100%;
+		}
+		.muti{
+			width: 90%;
+			margin-left: -12px;
+		}
+		.rec{
+			width: 90%;
+		}
+		.cont{
+			width: 90%;
+		}
+		.menu ul li{
+			float: right;
+			width: 13%;
+			padding-right: 10px;
+		}
+		.pur p {
+			margin-left: 28%; 
+		}
+		.main{
+			margin-top:40px;
+		}
+		.menu p{
+			left: 5px;
+			top: 18px;
+
+		}
+	
+
+
+	}
+	@media all and (max-width: 576px){
+		.header ul li a{
+			display: none;
+		}
+		.header p{
+			margin-left: 20px;
+		}
+		.header{
+
+		}
+		.crea{
+			width: 100%;
+			margin-left:-20px;
+
+		}
+		.anh{
+			width: 100%;
+			margin:0 auto;
+
+
+		}
+		.anh img{
+			width:90%; 
+			margin-left: 20px;
+
+
+		}
+		.icon{
+			width: 70%;
+		}
+		.eas{
+			width: 100%;
+		}
+		.pur{
+			width: 100%;
+		}
+		.profiles ul li{
+			width: 100%;
+		}
+		.muti{
+			width: 90%;
+			margin-left: -12px;
+		}
+		.rec{
+			width: 90%;
+		}
+		.cont{
+			width: 90%;
+		}
+		.menu ul li{
+			float: right;
+			width: 15%;
+			padding-right: 15px;
+			padding-top:10px;
+
+
+
+
+		}
+		.menu ul li a{
+			font-size: 12px;
+
+		}
+		.pur{
+			height: 200px;
+		}
+		.header span i{
+			float: right;
+			display: block;
+			font-size: 25px;
+		}
+		.pur p{
+			margin-left: 22%;
+		}
+		.menu p{
+         top:8px;
+
+
+	}
+
