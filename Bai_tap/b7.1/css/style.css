@@ -960,7 +960,7 @@ textarea{
 		width: 100%;
 	}
 	.flic img{
-		width: 20%;
+		width: 23%;
 	}
 	.drop{
 		width: 100%;
@@ -995,6 +995,9 @@ textarea{
 	}
 	#ph{
 		display: none;
+	}
+	#button{
+		margin-top:0px;
 	}
 	
 
@@ -1098,6 +1101,9 @@ textarea{
 	}
 	#ph{
 		display: none;
+	}
+	#button{
+		margin-top:0px;
 	}
 	
 
