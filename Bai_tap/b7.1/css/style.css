@@ -669,7 +669,7 @@ hr{
 	color: white;
 	border: 1px solid #AF9360;
 	margin-left: 5px;
-	margin-top:20px;
+	/*margin-top:20px;*/
 
 }
 #email{
@@ -972,6 +972,11 @@ textarea{
 	.footer ul{
 		width:75%; 
 		margin-left: 15%;
+	}
+	.off{
+		width:80%;
+
+	}
 
 
 
@@ -1105,7 +1110,7 @@ textarea{
 	#button{
 		margin-top:0px;
 	}
-	
+
 
 
 	
