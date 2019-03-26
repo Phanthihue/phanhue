@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<style type="text/css" media="screen">
+	tr{
+		background-color: #ADBDDF;
+	}
+	input{
+		float: left;
+	    margin-left: 17px;
+	}
+	p{
+		float: left;
+		margin-left: 40px;
+
+
+	}
+	button{
+		margin-top:20px;
+		width: 100px;
+		height: 40px;
+		background-color:#ADBDDF;
+		color:black; 
+	}
+	tr:hover{
+		background-color: #4BDC67;
+
+	}
+	.td1{
+		width: 50px;
+
+
+	}
+
+	</style>
+	
+</head>
+<body>
+	<table width="40%" height="350px"border="0px" >
+		<tr class="phanhue" >
+			<td class="td1"><input type="checkbox" name="" value="" onclick="check(this)">
+				
+			</td>
+			<td><p>Lorem ipsum dolor sit amet, consectetur adipisicing.</p></td>
+			
+
+		</tr>
+		<tr>
+			<td  class="td1"><input type="checkbox" name="" value="" onclick="check(this)">
+				
+			</td>
+			<td><p>Lorem ipsum dolor sit amet, consectetur adipisicing.</p></td>
+			
+			
+		</tr>
+		<tr>
+			<td  class="td1"><input type="checkbox" name="" value="" onclick="check(this)">
+			
+			</td>
+			<td><p>Lorem ipsum dolor sit amet, consectetur adipisicing.</p></td>
+			
+			
+		</tr>
+		<tr>
+			<td  class="td1"><input type="checkbox" name="" value="" onclick="check(this)">
+			
+			</td>
+			<td><p>Lorem ipsum dolor sit amet, consectetur adipisicing.</p></td>
+			
+			
+		</tr>
+		<tr>
+			<td  class="td1"><input type="checkbox" name="" value="" onclick="check(this)">
+			
+			</td>
+			<td><p>Lorem ipsum dolor sit amet, consectetur adipisicing.</p></td>
+			
+			
+		</tr>
+		<tr>
+			<td  class="td1"><input type="checkbox" name="" value="" onclick="check(this)">
+			
+			</td>
+			<td><p>Lorem ipsum dolor sit amet, consectetur adipisicing.</p></td>
+			
+			
+		</tr>
+		<tr>
+			<td  class="td1"><input type="checkbox" name="" value="" onclick="check(this)">
+			
+			</td>
+			<td><p>Lorem ipsum dolor sit amet, consectetur adipisicing.</p></td>
+			
+		</tr>
+		<tr>
+			<td  class="td1"><input type="checkbox" name="" value="" onclick="check(this)">
+			
+			</td>
+			<td><p>Lorem ipsum dolor sit amet, consectetur adipisicing.</p></td>
+			
+			
+		</tr>
+
+	</table>
+	<button onclick="checkAll()">Check all</button>
+	<button  onclick="uncheckAll()"> Uncheck all</button>
+	<script type="text/javascript"> 
+		// function check(){
+		// var tr=document.getElementsByTagName("tr");
+		// for (var i = 0; i < tr.length; i++) {
+		// 	tr[i].style.backgroundColor="#4BDC67";
+
+		// }
+
+		function checkAll()
+		{
+			var check=document.getElementsByTagName('input');
+			for (var i = 0; i < check.length; i++) {
+				check[i].checked=true;
+			}
+		}
+		function uncheckAll()
+		{
+			var check=document.getElementsByTagName('input');
+			for (var i = 0; i < check.length; i++) {
+				check[i].checked=false;
+			}
+		}
+
+		
+	</script>
+
+</body>
+</html>

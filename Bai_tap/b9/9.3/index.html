@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<style type="text/css" media="screen">
+	body{
+
+			text-align: center;
+		}
+		p{
+			font-size: 20px;
+		}
+		div{
+			width: 70%;
+			margin:0 auto;
+			height: 250px;
+			border: 1px solid black;
+			line-height: 50px;
+			margin-top:30px;
+		}
+		button{
+			width: 100px;
+			height: 40px;
+			background-color: #4BDC67;
+			color: black;
+			border: 1px solid black;
+			margin-top:30px;
+		}
+		
+
+		
+	</style>
+
+
+</head>
+<body>
+	<div>
+	
+	<button type="" class="default">Mặc định</button>
+	<button type="" class="big">Lớn</button>
+	<button type="" class="small">Nhỏ</button>
+	<p style="font-size: 20px">Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut, a, alias. Ipsum dignissimos, repellat voluptate. Veritatis omnis facilis esse est.</p>
+</div>
+
+	<script type="text/javascript">
+		var change=document.getElementsByTagName("p")[0];
+		document.getElementsByClassName("default")[0].addEventListener("click",function(){
+			var fontsize = change.style.fontSize;
+			change.style.fontSize="20px";
+		});
+
+		document.getElementsByClassName("big")[0].addEventListener("click",function(){
+			var fontsize=change.style.fontSize;
+			fontsize=parseFloat(fontsize);
+			fontsize=fontsize*1.5;
+			change.style.fontSize=fontsize+"px";
+		});
+		document.getElementsByClassName("small")[0].addEventListener("click",function(){
+			var fontsize=change.style.fontSize;
+			fontsize=parseFloat(fontsize);
+			fontsize=fontsize*0.5;
+			change.style.fontSize=fontsize+"px";
+		});
+			
+		
+
+	</script>
+
+</body>
+</html>

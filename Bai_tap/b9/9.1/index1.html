@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<style type="text/css" media="screen">
+	.ong{
+		float: left;
+	}
+	.ong>p{
+		position: absolute;
+		left: 18px;
+		margin:0;
+		padding: 0px;
+		display:none;
+		background-color: white;
+		width: 50%;
+		height:150px;
+	      top: 53px;
+	      color:black;
+	}
+	.ong>button{
+		background-color: red;
+		margin:10px;
+		padding: 10px 20px;
+		background-color: #666666;
+		border: 0px;
+		color: white;
+	}
+	body{
+		background-color: #E9EBEE;
+	}
+	button:hover{
+		background-color: white;
+		color:black;
+	}
+
+
+		
+	</style>
+	
+	
+	
+	
+</head>
+<body>
+	<div class="ong">
+		<button>Tab 1</button>
+		<p class="active">
+			Section 1
+			<br>
+			Chỉ cần makeup sương sương mà da vẫn trắng sáng “chuẩn” hot trend khiến ai kia phải trầm trồ! Bật mí bí kíp nhờ làn da trắng sáng rạng ngời từ Hazeline Matcha Lựu đỏ giúp nuôi dưỡng làn da trắng mịn “thần sầu”. Nàng chỉ việc tô vẽ chút xíu phấn son để hớp hồn ai đó, việc còn lại Hazeline lo 
+		</p>
+	</div>
+	<div class="ong">
+		<button>Tab 2</button>
+		<p class="active">
+			Section 2
+			<br>
+
+			Mình cần 1 ng ae thiện lành bổ túc cho môn Đại số thi vào 1/4 tới đây.Mục tiêu 5 điểm.mình rất ham học thông minh và sáng dạ.ae nào nhận được ib mình với nhá.Bạn nữ thì càng tốt! =))
+
+		</p>
+	</div>
+	<div class="ong">
+		<button>Tab 3</button>
+		<p class="active">
+			Section 3
+			<br>
+
+			Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate, inventore.
+			Lorem ipsum dolor sit amet, consectetur adipisicing.
+		</p>
+	</div>
+	<script type="text/javascript">
+		var button=document.getElementsByTagName("button");
+		var content =document.getElementsByTagName("p");
+		for (var i = 0; i < content.length; i++) {
+
+			button[i].addEventListener("click",function(){
+				for (var j = 0; j < content.length; j++) {
+					content[j].style.display="none";
+				}
+				this.nextElementSibling.style.display="block";
+			});
+			button[i].addEventListener("mouseout", function(){
+				for (var j = 0; j < content.length; j++) {
+					content[j].style.display="none";
+				}
+
+			});
+		}
+
+	</script>
+
+</body>
+</html>
