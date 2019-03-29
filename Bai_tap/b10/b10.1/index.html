@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" href="css/style.css">
+	<script type="text/javascript">
+		function load(){
+			var formDangKy = document.getElementsByTagName("form")[0];
+			formDangKy.addEventListener("submit",function(){
+
+			});
+		}
+	</script>
+
+</head>
+<body onload="load()">
+	<form id="formDangKy">
+		<table >
+			<tr>
+				<td>Họ và tên</td>
+				<td>
+					<input type="text" name="hoVaTen" value="" placeholder="Nhập họ và tên" id="hoVaTen"/>
+				</td>
+			</tr>
+			<tr>
+				<td>Giới tính</td>
+				<td>
+					<input type="radio" name="gioiTinh" value="Nam" placeholder=""> Nam
+					<input type="radio" name="gioiTinh" value="Nữ" placeholder="">Nữ
+				</td>
+			</tr>
+			<tr>
+				<td>Email</td>
+				<td>
+					<input type="text" name="email" value="" placeholder="Nhập Email..." id="email">
+					<br>
+					<p ></p>
+				</td>
+			</tr>
+			<tr>
+				<td>Số điện thoại</td>
+				<td>
+					<input type="text" name="sodienthoai" value="" placeholder="Nhập số điện thoại..."id="sodienthoai">
+					
+				</td>
+			</tr>
+			<tr>
+				<td>Mật khẩu</td>
+				<td>
+					<input type="password" name="matkhau" value="" placeholder="">
+				</td>
+			</tr>
+			<tr>
+				<td>Xác nhận mật khẩu</td>
+				<td>
+					<input type="password" name="xacnhan" value="" placeholder="">
+				</td>
+			</tr>
+		</table>
+		<input class="nut" type="submit" name="" value="Đăng ký">
+		<input  class="nut1" type="button" name="" value="Xóa trắng">
+	</form>
+
+	<script type="text/javascript">
+
+		function load(){
+			var coloi=true;
+
+			formDangKy.addEventListener("submit",function(){
+
+
+				hoVaTen=document.getElementById("hoVaTen");
+				ht=hoVaTen.value;
+
+
+
+				if (ht=="" || ht.length <8  ){
+					alert("Hãy điền họ tên và lớn hơn 8 ký tự");
+					
+				}
+				if (formDangKy.gioiTinh.value==""){
+					alert("Hãy chọn giới tính ");
+					
+				}
+				email=document.getElementById("email");
+				em=email.value
+				
+				var re=/^[a-z_][\w-]+@[\w.-]+\.[a-z]{2,4}$/i;
+				if (re.test(em)==false) {
+					alert("Bạn cần nhập đúng dạng Email , VD:phanhue9080@gmail.com");
+					// document.getElementById('phanhue').innerHTML = "Zent Group";
+
+				}
+				if (formDangKy.email.value==""){
+					alert("Hãy nhập email của bạn");
+				}
+				sodienthoai=document.getElementById("sodienthoai");
+				rd=sodienthoai.value
+				
+				var rd=/^[1-10_][\w-]$/i;
+				if (rd.test(sodienthoai)==false ||formDangKy.sodienthoai.value=="") {
+					alert("Hãy nhập số điện thoại");
+					
+				}
+				// if (formDangKy.sodienthoai.value==""){
+				// 	alert("Hãy nhập số điện thoại");
+							
+				// }
+				if (formDangKy.matkhau.value==""){
+					alert("Hãy nhập mật khẩu của bạn");
+				}
+				if (formDangKy.xacnhan.value==""){
+					alert("Hãy Xác nhận password của bạn");
+				}
+				if (formDangKy.matkhau.value!=formDangKy.xacnhan.value) {
+					alert("Bạn xác nhận sai mật khẩu");	
+
+				}
+			});			
+		}			
+	</script>
+
+
+</body>
+</html>
