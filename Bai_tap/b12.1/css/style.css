@@ -1,0 +1,126 @@
+*{
+	margin:0px;
+	padding: 0px;
+}
+.button{
+	width: 200px;
+	height: 50px;
+	background-color: #2184BE;
+	color:white;
+	font-size: 18px;
+	border: 0px;
+	border-radius: 10px;
+
+	margin-top:20px;
+}
+.form{
+	width: 80%;
+	margin:20px auto;
+
+
+}
+.acc{
+	width: 75%;
+	margin-top:20px;
+	line-height: 40px;
+	background-color: #EEEEEE;
+
+}
+.pro{
+	width: 75%;
+	margin-top:20px;
+	line-height: 40px;
+	background-color: #EEEEEE;
+	display: none;
+}
+.war{
+	width: 75%;
+	margin-top:20px;
+	line-height: 40px;
+	background-color: #EEEEEE;
+	display: none;
+
+}
+.fin{
+	width: 75%;
+	margin-top:20px;
+	line-height: 40px;
+	background-color: #EEEEEE;
+	display: none;
+
+}
+legend{
+	font-size: 20px;
+	border-bottom: 1px solid #8B8D8F;
+}
+.nut{
+	width: 40%;
+	margin:20px auto;
+}
+.bu{
+	float: right;
+	width: 100px;
+	height: 50px;
+	background-color: #2184BE;
+	color:white;
+	font-size: 18px;
+	border: 0px;
+	border-radius: 10px;
+
+	margin-top:20px;
+	margin-right: 20px;
+
+}
+#span1{
+	margin-left: 20px;
+	color: red;
+	display: none;
+}
+#span2{
+	margin-left: 20px;
+	color: red;
+	display: none;
+}
+
+#span3{
+	margin-left: 20px;
+	color: red;
+	display: none;
+}
+#span4{
+	margin-left: 20px;
+	color: red;
+	display: none;
+}
+.bu{
+	margin-bottom: 20px;
+}
+#span5{
+	margin-left: 20px;
+	color: red;
+	display: none;
+}
+#span6{
+	margin-left: 20px;
+	color: red;
+	display: none;
+}
+#span7{
+	margin-left: 20px;
+	color: red;
+	display: none;
+}
+
+#span8{
+	margin-left: 20px;
+	color: red;
+	display: none;
+}
+#span9{
+	margin-left: 20px;
+	color: red;
+	display: none;
+}
+
+
+

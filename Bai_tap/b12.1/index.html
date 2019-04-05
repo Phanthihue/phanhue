@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" href="css/animate.css">
+	<script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
+
+	<script type="text/javascript" src="js/wow.min.js"></script>
+	<link rel="stylesheet" href="css/style.css">
+	
+	
+
+
+</head>
+<body>
+	<div class="form">
+	<input type="button" name="" value="1.Account"class="button"id="acc">
+	<input type="button" name="" value="2.Profile"class="button" id="pro">
+	<input type="button" name="" value="3.Warning" class="button"id="war">
+	<input type="button" name="" value="4.Finish" class="button" id="fin">
+	<div class="acc" id="a">
+		
+        <legend>Account Information</legend>
+ 
+        <p for="userName-2">User name *</p>
+        <input id="userName-2" name="userName" type="text" class="required"><span id="span1">This field is required</span>
+        <p for="password-2">Password *</p>
+        <input id="password-2" name="password" type="text" class="required"><span id="span2">This field is required</span>
+        <p for="confirm-2">Confirm Password *</p>
+        <input id="confirm-2" name="confirm" type="text" class="required"><span id="span3">This field is required</span ><span id="span4">Please enter the same value again</span>
+        <p>(*) Mandatory</p>
+ 
+	</div>
+	<div class="pro">
+		 <legend>Profile Information</legend>
+ 
+        <p for="name-2">First name *</p>
+        <input id="name-2" name="name" type="text" class="required"><span  id="span5">This field is required</span>
+        <p for="surname-2">Last name *</p>
+        <input id="surname-2" name="surname" type="text" class="required"><span id="span6">This field is required</span>
+        <p for="email-2">Email *</p>
+        <input id="email-2" name="email" type="text" class="required email"><span id="span7">This field is required</span>
+        <p for="address-2">Address</p>
+        <input id="address-2" name="address" type="text"><span id="span8">This field is required</span>
+        <p for="age-2">Age (The warning step will show up if age is less than 18) *</p>
+        <input id="age-2" name="age" type="text" class="required number"><span id="span9">This field is required</span>
+        <p>(*) Mandatory</p>
+	</div>
+	<div class="war">
+		 <legend>You are to young</legend>
+ 
+        <p>Please go away ;-)</p>
+	</div>
+	<div class="fin">
+		 <legend>Terms and Conditions</legend>
+ 
+        <input id="acceptTerms-2" name="acceptTerms" type="checkbox" class="required"> <label for="acceptTerms-2">I agree with the Terms and Conditions.</label>
+	</div>
+	</div>
+	<div class="nut">
+		<button class="bu" id="ne">Next</button>
+		<button class="bu">Previous</button>
+		
+	</div>
+	<script type="text/javascript" src="js/demo.js"></script>
+
+</body>
+</html>
