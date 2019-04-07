@@ -1,0 +1,132 @@
+#red{
+	background-color: red !important;
+
+}
+.jumbotron{
+	text-align: center;
+}
+#btn-primary1{
+	background-color: white;
+	color:black;
+	border-radius: 25px;
+}
+#btn-primary2{
+	background-color: #F05F40;
+	border-radius: 25px;
+}
+#tron{
+	background-color:  #F05F40;
+	  
+   
+    border-radius: 0px;*/
+}
+#tron1{
+	background-image:url("../img/bg-masthead.jpg");
+	background-size: cover;
+	 margin-bottom: 0px;
+   
+    border-radius: 0px;
+}
+.stu{
+	font-size: 30px;
+}
+.col-sm{
+	text-align: center;
+}
+.fa {
+	font-size: 50px !important;
+	color: #F05F40; 
+}
+.col-xl-4 img{
+	width: 100%;
+}
+.col-xl-4{
+padding-right: 0px; 
+    padding-left: 0px;
+
+
+}
+#hue{
+	background-color: black;
+}
+#btn-primary3{
+	background-color: white;
+	color:black;
+	border-radius: 25px;
+}
+#free{
+	color: white;
+	font-size: 30px;
+}
+#my-4{
+	background-color: #F05F40 !important;
+	height: 3px !important;
+	width: 100px !important;
+
+}
+#hue1{
+	background-color: white;
+	padding: 0px;
+
+}
+   
+   #free1{
+   	color: black;
+   	font-size: 25px;
+   } 
+   #free3{
+   	font-size: 20px;
+
+   }
+   .col-xl-6{
+   	text-align: center;
+   }
+   #col-sm{
+   	margin-bottom: 50px;
+   }
+   #fa{
+   	color: black;
+   }
+   #gmail{
+   	color: red;
+   }
+   #nav{
+   	background-color: black;
+
+   }
+   #nav-link{
+   	color: white;
+   }
+   #nav-link:hover{
+   	color:red;
+   }
+
+
+   #navbar-brand{
+   	color: white;
+   }
+   #your{
+   	color: white;
+   	font-size: 50px;
+   	font-family: 'Anton', sans-serif;
+   }
+   #it{
+   	color: white;
+   }
+   #we{
+   	color: white;
+   	font-size: 40px;
+   }
+   #my-4-1{
+   	background-color: white !important;
+	height: 3px !important;
+	width: 100px !important;
+
+   }
+   .true{
+   	margin-bottom: 50px;
+   }
+   
+
+
+
