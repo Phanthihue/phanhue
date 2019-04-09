@@ -22,7 +22,7 @@
 }
 #tron1{
 	background-image:url("../img/bg-masthead.jpg");
-	background-size: cover;
+	background-size: 100% 100%;
 	 margin-bottom: 0px;
    
     border-radius: 0px;
@@ -61,7 +61,7 @@ padding-right: 0px;
 #my-4{
 	background-color: #F05F40 !important;
 	height: 3px !important;
-	width: 100px !important;
+	width: 50px !important;
 
 }
 #hue1{
@@ -120,7 +120,7 @@ padding-right: 0px;
    #my-4-1{
    	background-color: white !important;
 	height: 3px !important;
-	width: 100px !important;
+	width: 50px !important;
 
    }
    .true{
