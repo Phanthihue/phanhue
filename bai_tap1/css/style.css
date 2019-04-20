@@ -690,11 +690,17 @@ iframe{
     color: #707070;
     text-transform: capitalize;
 }
+@media all and (max-width: 1024px){
+  .bieutuong li {
+    margin-left: 20px;
+  }
+
+      }
 
 
 @media all and (max-width: 992px){
   .bieutuong li {
-    margin-left: 20px;
+    margin-left: 12px;
   }
 
       }
@@ -704,7 +710,7 @@ iframe{
     margin-bottom: 40px;
   }
   .bieutuong li {
-    margin-left: 15px;
+    margin-left: 12px;
   }
 
 }
